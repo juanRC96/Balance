@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/resources/img/background.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+table{
+    border-spacing:0;
+    border-collapse: collapse;
+}
+
+.ingresos{
+    font-size: 0px;
+    text-align: center;
+    width: 60%;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 5%;
+    box-shadow: 10px 5px 5px black;
+}
+
+#formu input{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+#formu{
+    font-size: 20px;
+}
+
+.balance{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    background-color: black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5%;
+}
+
+.listas{
+    font-size: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+#listaIngresos{
+    font-size: 20px;
+}
+
+#listaIngresos tr td{
+    width: 200px;
+    height: 40px;
+} 
+
+#listaEgresos tr td{
+    width: 200px;
+    height: 40px;
+} 
+
+p{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.li{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10%;
+    background-color: black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5%;
+}
+
+.le{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 10%;
+    background-color: black;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 5%;
+}
+
+.listas{
+    margin-top: 5%;
+}
+
+#texto-ingreso{
+    color: green;
+}
+
+#texto-egreso{
+    color: red;
+}
